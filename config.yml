@@ -7,7 +7,7 @@ Nodes:
   -
     PanelType: "V2board" # Panel type: SSpanel, V2board
     ApiConfig:
-      ApiHost: "https://proxy.aries.ovh" # 修改这里
+      ApiHost: "proxy.aries.ovh" # 修改这里
       ApiKey: "imariesfromchina" # 修改这里
       NodeID: 1
       NodeType: V2ray # Node type: V2ray, Shadowsocks, Trojan
