@@ -62,7 +62,7 @@ ApiKey: "YOUR_TOKEN" # Modify here
 ```
 2. Modify line 224 of the `install.sh` file to change the username `missuo` to your own GitHub username.
 ```
-wget https://cdn.jsdelivr.net/gh/AriesEDGE/XrayR-V2Board/config.yml -O /etc/XrayR/config.yml
+mkdir -p /etc/XrayR && wget https://cdn.jsdelivr.net/gh/AriesEDGE/XrayR-V2Board/config.yml -O /etc/XrayR/config.yml
 ```
 3. Change the username `missuo` in the link below to your own GitHub username to complete the configuration of the one-click install script command.
 ### Install Command
